@@ -33,8 +33,9 @@ collections: [sections]
 title: Cyan9800
 subtitle: Electrical Engineering, IIT Madras
 description: >- # this means to ignore newlines until "baseurl:"
+Signal Processing Blog
 
-author: Your Incredible Name
+author: Sayan Mitra
 email: sayanmitra@smail.iitm.ac.in
 avatar: assets/images/avatar.jpg
 
