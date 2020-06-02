@@ -33,7 +33,6 @@ collections: [sections]
 title: Cyan9800
 subtitle: Electrical Engineering, IIT Madras
 description: >- # this means to ignore newlines until "baseurl:"
-Signal Processing Blog
 
 author: Sayan Mitra
 email: sayanmitra@smail.iitm.ac.in
@@ -46,9 +45,9 @@ url: "" # the base hostname & protocol for your site
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
 twitter_url:
-facebook_url:
+facebook_url: https://www.facebook.com/sayan.mitra.925/
 googleplus_url:
-instagram_url:
+instagram_url: https://www.instagram.com/sayan9800/?hl=en
 linkedin_url:
 github_url:
 stackoverflow_url:
