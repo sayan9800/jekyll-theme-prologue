@@ -1,6 +1,6 @@
 ---
-title: About Me
-icon: fa-user
+title: Courses
+icon: fa-book
 order: 1
 ---
 
