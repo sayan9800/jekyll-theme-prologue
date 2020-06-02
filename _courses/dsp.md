@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: DSP
 icon: fa-book
 order: 1
 ---
