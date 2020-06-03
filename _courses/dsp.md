@@ -1,6 +1,6 @@
 ---
 title: DSP
-layout: posts
+layout: courses
 icon: fa-th
 order: 1
 ---
