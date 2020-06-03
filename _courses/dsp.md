@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: DSP
 icon: fa-th
 order: 1
 ---
