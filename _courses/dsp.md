@@ -1,5 +1,6 @@
 ---
 title: DSP
+layout: posts
 icon: fa-th
 order: 1
 ---
