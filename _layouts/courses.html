@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
-{%- assign _courses = site.courses | sort: 'order' -%}
+{%- assign _courses = site.courses | sort: 'order' | reverse -%}
 {%- include header.html scrolly_nav=_courses -%}
 <!-- Main -->
 <div id="main">
 	{%- if page.content != "" -%}
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
-	<!-- Sections -->
+	<!-- Posts List -->
 	{%- for _course in _courses -%}
-		{%- include section.html title=_course.title photo=_course.cover-photo photo-alt=_course.cover-photo-alt auto-header=_course.auto-header content=_course.content -%}
+		{%- capture _title -%}
+			<a href="{{- _course.url | absolute_url -}}">{{- _course.title -}}</a>
+		{%- endcapture -%}
+		{%- capture _excerpt -%}<p>{{- _course.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
+		{%- capture _link -%}<a href="{{- _course.url | absolute_url -}}">read more</a>{%- endcapture -%}
+		{%- assign _content = _excerpt | append: _link -%}
+		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
 	{%- endfor -%}
 </div>
