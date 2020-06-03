@@ -1,8 +1,7 @@
 ---
-title: DSP
-icon: fa-book
+title: Portfolio
+icon: fa-th
 order: 1
 ---
 
-<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
-Testing
+<p>Digital Signal Processing</p>
