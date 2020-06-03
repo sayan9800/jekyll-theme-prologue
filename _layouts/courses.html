@@ -1,15 +1,3 @@
----
-layout: default
----
-{%- assign _courses = site.courses | sort: 'order' -%}
-{%- include header.html scrolly_nav=_courses -%}
-<!-- Main -->
-<div id="main">
-	{%- if page.content != "" -%}
-		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
-	{%- endif -%}
-	<!-- Courses -->
-	{%- for _course in _courses -%}
-		{%- include section.html title=_course.title photo=_course.cover-photo photo-alt=_course.cover-photo-alt auto-header=_course.auto-header content=_course.content -%}
-	{%- endfor -%}
-</div>
+<title>
+Testing
+</title>
